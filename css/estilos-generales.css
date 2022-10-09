@@ -16,12 +16,19 @@ body{
 h4{
   font-size: 1.3em;
 }
+.tac{
+  text-align: center;
+}
 .optica{
   background-color: var(--opticamarronosc);
 }
 .degradado-opt{
   background: rgb(134,48,0);
 background: linear-gradient(356deg, rgba(134,48,0,1) 0%, rgba(20,7,0,1) 100%);
+}
+.degradado-opt2{
+  background: rgb(134,48,0);
+background: linear-gradient(356deg,rgba(20,7,0,1) 0%,  rgba(134,48,0,1) 100%);
 }
 .brdbtm{
   border-radius: 0 0 11em 11em;
@@ -48,12 +55,13 @@ background: linear-gradient(356deg, rgba(134,48,0,1) 0%, rgba(20,7,0,1) 100%);
 .bred{
   background-color: #fd7837;
   color: var(--blanco);
+  font-weight: bold;
 }
 .bgris{
   background-color: var(--gris);
 }
 .pparrafo{
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 h1{
   font-size: 1.8em;
@@ -160,6 +168,9 @@ main, .posrelative{
 .fondoimg img{
   width: 100%;
 }
+.img-serr{
+  width: 60%;
+}
   .fondo-barbero{
     background-image: url(../img/portada.png);
     background-position: center;
@@ -244,6 +255,9 @@ main, .posrelative{
   .gap5{
     gap: 5px;
   }
+  .gap2{
+    gap: 2em;
+  }
   .gap10{
     gap: 10px;
   }
@@ -260,6 +274,10 @@ main, .posrelative{
     width: 22em;
     margin: 0 auto;
 }
+.row2{
+  width: 13em;
+  margin: 0 auto;
+}
 .rds{
   height: 15%;
 }
@@ -268,6 +286,9 @@ main, .posrelative{
 }
 .paddingprinc{
   padding: 2em 1em;
+}
+.padding31{
+  padding: 3em 1em;
 }
 .padsup{
   padding: 1.3em 0;
@@ -480,7 +501,9 @@ border-radius: 5em;
     width: 40%;
   }
   .box {
-    background-image: repeating-linear-gradient(45deg, rgb(224, 224, 224), rgb(231, 231, 231) 10px, snow 10px, snow 20px);
+   /* background-image: repeating-linear-gradient(45deg, rgb(224, 224, 224), rgb(231, 231, 231) 10px, snow 10px, snow 20px);
+  */
+  background-color: #fff;
   }
 
   /** Swiper Slider **/
