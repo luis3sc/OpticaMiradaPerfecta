@@ -69,7 +69,7 @@ background: linear-gradient(356deg,rgba(20,7,0,1) 0%,  rgba(134,48,0,1) 100%);
   background-color: var(--gris);
 }
 .pparrafo{
-  font-size: 1.2em;
+  font-size: 1em;
 }
 h1{
   font-size: 1.8em;
@@ -575,7 +575,10 @@ width: 100%;
   margin: auto;
   padding: 1em;
 }
-
+.img-servvv{
+  width: 100%;
+  border-radius: 1em;
+}
 
 @media screen and (min-width: 720px) {
   .mw-600{
