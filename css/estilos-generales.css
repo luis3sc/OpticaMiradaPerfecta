@@ -38,6 +38,9 @@ h4{
 .optica{
   background-color: var(--opticamarron);
 }
+.textjust{
+  text-align: justify;
+}
 .degradado-opt{
   background: rgb(134,48,0);
 background: linear-gradient(356deg, rgba(134,48,0,1) 0%, var(--opticamarron) 100%);
@@ -56,10 +59,10 @@ background: linear-gradient(356deg,rgba(20,7,0,1) 0%,  rgba(134,48,0,1) 100%);
   transform: scale(2.8);
 }
 .img100{
-  width: 40%;
+  width: 45%;
   position: absolute;
   right: 58px;
-  top: 58%;
+  top: 59%;
 }
 .colblanco{
   color: var(--blanco) !important;
